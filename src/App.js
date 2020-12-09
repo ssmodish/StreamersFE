@@ -1,13 +1,14 @@
 import React from "react";
+import { BrowserRouter } from 'react-router-dom'
+import Navbar from './components/layout/Navbar'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React App Created!</h1>
-        <h2>Now hosting from Firebase</h2>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+      </div>
+    </BrowserRouter>
   );
 }
 
