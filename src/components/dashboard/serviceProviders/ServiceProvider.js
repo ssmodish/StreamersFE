@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ServiceProvider = () => {
+const ServiceProvider = ({service}) => {
   return(
     <li className="collection-item">
-      Provider
+      {service.serviceProvider}
     </li>
   )
 }
